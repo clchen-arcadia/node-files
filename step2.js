@@ -38,6 +38,7 @@ async function catWeb(URL) {
 */
 
 function catDecider(arg) {
+  // Can also do URL()
   if (arg.slice(0, 4) === "http") {
     catWeb(arg);
   } else {
