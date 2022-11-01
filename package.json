@@ -1,0 +1,18 @@
+{
+  "name": "files",
+  "version": "1.0.0",
+  "description": "node exercises",
+  "main": "step1.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git node"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "phil chrisc",
+  "license": "ISC"
+}
