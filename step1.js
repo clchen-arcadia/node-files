@@ -2,6 +2,10 @@
 
 const fsP = require("fs/promises");
 
+/** Function accepts a filepath string and prints to console the contents
+ *  of the text file or throws and error if unable to encode in utf8.
+*/
+
 async function cat(filepath) {
   try {
     let contents = await fsP.readFile(`${filepath}`, "utf8");
